@@ -51,13 +51,11 @@ nav {
     border-radius: 10px;
 }
 
-.search-bar {
-    padding: 0 10px;
 
-    /* DEBUG */
-    width: 100%;
-    min-height: 50px;
-    background-color: #e5e5e5;
+.input-group span,
+.input-group input{
+    border: none;
+    background-color: #e6e6e6;
 }
 
 .alarm {
