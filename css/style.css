@@ -20,25 +20,28 @@ body {
 /* HEADER STYLE */
 /* Nav Style */
 
-nav{
-    border-bottom: 1px solid #001533 ;
+nav {
+    border-bottom: 1px solid #001533;
     min-height: 100px;
+    z-index: 501;
+
 
 }
 
 
-._hscontainer{
+._hscontainer {
     width: 95%;
     margin: 0 auto;
     min-height: 100px;
 }
 
-._hsrow{
+._hsrow {
     min-height: 100px;
     display: flex;
 }
 
-.logo{
+.logo {
+    padding: 0 10px;
 
     /* DEBUG */
     width: 100%;
@@ -48,7 +51,8 @@ nav{
     border-radius: 10px;
 }
 
-.search-bar{
+.search-bar {
+    padding: 0 10px;
 
     /* DEBUG */
     width: 100%;
@@ -56,17 +60,35 @@ nav{
     background-color: #e5e5e5;
 }
 
-.alarm{
+.alarm {
+    padding: 0 10px;
 
-     /* DEBUG */
-     width: 100%;
-     min-height: 50px;
-     background-color: #ff8f00;
-     display: block;
-     border-radius: 10px;
+    /* DEBUG */
+    width: 100%;
+    min-height: 50px;
+    background-color: #ff8f00;
+    display: block;
+    border-radius: 10px;
 }
 
-input.form-control.me-2 {
-    background-color: #e5e5e5;
+
+/* SIDE BAR STYLE */
+.side-bar {
+    background-color: #11283d;
+    height: calc(100vh - 100px);
+    width: 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
 }
 
+
+/* MAIN STYLE */
+main {
+    height: calc(100vh - 100px);
+    width: calc(100vw - 100px);
+    overflow-y: auto;
+}
