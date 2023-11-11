@@ -87,8 +87,28 @@ nav {
 
 
 /* MAIN STYLE */
-main {
+main{
+    display: flex;
+}
+
+
+
+.content{
     height: calc(100vh - 100px);
     width: calc(100vw - 100px);
     overflow-y: auto;
+}
+
+.main-top{
+
+    /* DEBUG */
+    background-color: #1b72e8;
+}
+
+.table-class{
+
+
+    /* DEBUG */
+    min-height: 100px;
+    background-color: #e5e5e5;
 }
