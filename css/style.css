@@ -87,28 +87,85 @@ nav {
 
 
 /* MAIN STYLE */
-main{
+main {
     display: flex;
 }
 
 
-
-.content{
+/* CONTENT SECTION STYLE */
+.content {
     height: calc(100vh - 100px);
-    width: calc(100vw - 100px);
+    width: calc(100vw - 101px);
     overflow-y: auto;
 }
 
-.main-top{
+.main-top {
 
     /* DEBUG */
     background-color: #1b72e8;
 }
 
-.table-class{
+.add-student,
+.bread-crumb,
+.online {
+    min-height: 50px;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+
+
+
+/* TABLE SECTION STYLE */
+.table-class,
+.table-faq,
+.table-todo,
+.table-graph {
+
 
 
     /* DEBUG */
-    min-height: 100px;
-    background-color: #e5e5e5;
+    background-color: #3e76d3;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.table-class {
+    height: 400px;
+}
+
+.table-faq {
+    height: 200px;
+}
+
+.table-todo {
+    height: 100px;
+}
+
+.table-graph {
+    height: 500px;
+}
+
+
+
+/* ****************************************************** */
+/* MEDIA QUERY */
+@media all and (min-width: 768px) {
+
+    .add-student,
+    .bread-crumb,
+    .online {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 992px){
+    .side-bar {
+        width: 150px;
+    }
+
+    .content {
+        width: calc(100vw - 151px);
+    }
 }
