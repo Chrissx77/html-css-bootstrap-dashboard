@@ -21,34 +21,11 @@ body {
 /* Nav Style */
 
 nav {
-    border-bottom: 1px solid #001533;
-    min-height: 100px;
     z-index: 501;
-
-
 }
 
-
-._hscontainer {
-    width: 95%;
-    margin: 0 auto;
-    min-height: 100px;
-}
-
-._hsrow {
-    min-height: 100px;
-    display: flex;
-}
-
-.logo {
-    padding: 0 10px;
-
-    /* DEBUG */
-    width: 100%;
-    height: 50px;
-    background-color: #01e165;
-    display: block;
-    border-radius: 10px;
+.logo img{
+    width: 50px;
 }
 
 
@@ -58,22 +35,11 @@ nav {
     background-color: #e6e6e6;
 }
 
-.alarm {
-    padding: 0 10px;
-
-    /* DEBUG */
-    width: 100%;
-    min-height: 50px;
-    background-color: #ff8f00;
-    display: block;
-    border-radius: 10px;
-}
-
 
 /* SIDE BAR STYLE */
 .side-bar {
     background-color: #11283d;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     width: 100px;
     color: white;
     display: flex;
@@ -92,7 +58,7 @@ main {
 
 /* CONTENT SECTION STYLE */
 .content {
-    height: calc(100vh - 100px);
+    height: calc(100vh - 50px);
     width: calc(100vw - 101px);
     overflow-y: auto;
 }
