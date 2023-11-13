@@ -16,6 +16,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /*************************************************************************/
 /* HEADER STYLE */
 /* Nav Style */
@@ -24,13 +28,13 @@ nav {
     z-index: 501;
 }
 
-.logo img{
+.logo img {
     width: 50px;
 }
 
 
 .input-group span,
-.input-group input{
+.input-group input {
     border: none;
     background-color: #e6e6e6;
 }
@@ -46,7 +50,7 @@ main {
 .side-bar {
     background-color: #11283d;
     height: calc(100vh - 50px);
-    width: 100px;
+    width: 50px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -55,7 +59,8 @@ main {
     padding: 10px 0;
 }
 
-.icon-side{
+
+.icon-side-mobile {
     list-style: none;
     padding: 0;
     display: flex;
@@ -63,13 +68,31 @@ main {
     align-items: center;
 }
 
-
-/*  ----> COME FACCIO A CENTRARE BENE LE ICONE?  <---- */
-.icon-side li{
-    padding-bottom: 5px;
+.icon-side-mobile li {
+    padding-top: 10px;
 }
 
-.icon-side li a{
+.icon-side-mobile li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*  ----> COME FACCIO A CENTRARE BENE LE ICONE?  <---- */
+.icon-side {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+}
+
+.icon-side li {
+    padding-top: 10px;
+}
+
+.icon-side li a {
     text-decoration: none;
     color: white;
     font-size: 0.7rem;
@@ -90,20 +113,56 @@ main {
 }
 
 .main-top {
+    color: white;
 
     /* DEBUG */
     background-color: #1b72e8;
 }
 
+ol.breadcrumb{
+    width: 50%;
+}
+
+ol.breadcrumb li a{
+    color: white;
+}
+
+.bread-path{
+    background-color: #155bba;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding: 0px 10px
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: var(--bs-breadcrumb-divider, " ");
+}
+
+
 .add-student,
-.bread-crumb,
 .online {
     min-height: 50px;
-    width: 50%;
-    background-color: aliceblue;
+    width: 60%;
     border-radius: 10px;
 }
 
+
+.add-student{
+    font-size: 1.3rem;
+}
+
+.plus{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.numb-student{
+    font-size: 1.2rem;
+
+}
 
 
 
@@ -144,18 +203,32 @@ main {
 @media all and (min-width: 768px) {
 
     .add-student,
-    .bread-crumb,
+    .breadcrumb,
     .online {
         width: 100%;
     }
+
+    .add-student{
+        text-align: end;
+    }
+
+
 }
 
-@media all and (min-width: 992px){
+@media all and (min-width: 992px) {
     .side-bar {
-        width: 150px;
+        width: 100px;
     }
 
     .content {
         width: calc(100vw - 151px);
+    }
+
+    .icon-side-mobile {
+        display: none;
+    }
+
+    .icon-side {
+        display: block;
     }
 }
