@@ -167,6 +167,31 @@ ol.breadcrumb li a{
 
 
 /* TABLE SECTION STYLE */
+
+
+.tag{
+    background-color: #f26551;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.state{
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.done{
+    background-color: #198754;
+}
+
+.action{
+    border: 1px solid #6c757d;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
 .table-class,
 .table-faq,
 .table-todo,
@@ -175,13 +200,16 @@ ol.breadcrumb li a{
 
 
     /* DEBUG */
-    background-color: #3e76d3;
+    border:1px solid #e1e1e1;
     border-radius: 10px;
     margin-top: 30px;
 }
 
-.table-class {
-    height: 400px;
+.title-table{
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .table-faq {
