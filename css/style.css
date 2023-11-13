@@ -39,6 +39,16 @@ nav {
     background-color: #e6e6e6;
 }
 
+.alarm i{
+    padding: 0 10px;
+    font-size: 0.7rem;
+}
+
+.guess{
+    background-color: #5a5757;
+    padding: 6px 0;
+    border-radius: 50%;
+}
 
 /* MAIN STYLE */
 main {
@@ -119,15 +129,15 @@ main {
     background-color: #1b72e8;
 }
 
-ol.breadcrumb{
+ol.breadcrumb {
     width: 50%;
 }
 
-ol.breadcrumb li a{
+ol.breadcrumb li a {
     color: white;
 }
 
-.bread-path{
+.bread-path {
     background-color: #155bba;
     border-radius: 10px;
     margin-right: 5px;
@@ -148,73 +158,85 @@ ol.breadcrumb li a{
 }
 
 
-.add-student{
+.add-student {
     font-size: 1.3rem;
 }
 
-.plus{
+.plus {
     border: 1px solid white;
     padding: 5px 10px;
     border-radius: 10px;
     margin-left: 10px;
 }
 
-.numb-student{
+.numb-student {
     font-size: 1.2rem;
-
 }
 
 
 
 /* TABLE SECTION STYLE */
-
-
-.tag{
+/* TABLE PROSSIME CLASSI */
+.tag {
     background-color: #f26551;
     border-radius: 50%;
     padding: 5px;
 }
 
-.state{
+.state {
     border-radius: 10px;
     padding: 5px;
     color: white;
 }
 
-.done{
+.done {
     background-color: #198754;
 }
 
-.action{
+.action {
     border: 1px solid #6c757d;
     border-radius: 5px;
     font-size: 1rem;
     padding: 5px;
 }
 
+.off{
+    display: none;
+}
+
+
+
+
+
+
 .table-class,
 .table-faq,
 .table-todo,
 .table-graph {
-
-
-
-    /* DEBUG */
-    border:1px solid #e1e1e1;
+    border: 1px solid #e1e1e1;
     border-radius: 10px;
     margin-top: 30px;
 }
 
-.title-table{
+.title-table {
     padding: 10px;
     background-color: #e4e4e4;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
-.table-faq {
-    height: 200px;
+.faq p a {
+    font-weight: bold;
 }
+
+.card {
+    border: none;
+}
+
+
+
+
+
 
 .table-todo {
     height: 100px;
@@ -223,7 +245,6 @@ ol.breadcrumb li a{
 .table-graph {
     height: 500px;
 }
-
 
 
 /* ****************************************************** */
@@ -236,8 +257,12 @@ ol.breadcrumb li a{
         width: 100%;
     }
 
-    .add-student{
+    .add-student {
         text-align: end;
+    }
+
+    .off{
+        display: table-cell;
     }
 
 

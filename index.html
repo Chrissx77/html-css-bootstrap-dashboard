@@ -34,7 +34,10 @@
           </div>
         </div>
         <div class="col-auto">
-          <div class="alarm">
+          <div class="alarm d-flex align-items-center">
+            <i class="fa-solid fa-bars off" style="color: #5a5757;"></i>
+            <span class="guess"><i class="fa-solid fa-question off" style="color: #ffffff;"></i></span>
+            <i class="fa-solid fa-ellipsis-vertical off" style="color: #5a5757;"></i>
             <i class="fa-solid fa-bell" style="color: #ff9002;"></i>
           </div>
         </div>
@@ -58,7 +61,7 @@
       </ul>
 
       <ul class="icon-side">
-        <li ><i class="fa-solid fa-house"></i> <a class="text-end" href="#"> Home</a></li>
+        <li><i class="fa-solid fa-house"></i> <a class="text-end" href="#"> Home</a></li>
         <li><i class="fa-solid fa-chart-simple"></i> <a class="text-end" href="#"> Stats</a></li>
         <li><i class="fa-solid fa-signal"></i> <a class="text-end" href="#"> Signals</a></li>
       </ul>
@@ -81,16 +84,19 @@
               </div>
             </div>
             <div class="col-12 col-md-4 order-md-1">
-                <nav aria-label="breadcrumb">
-                  <ol class="breadcrumb text-center">
-                    <li class="breadcrumb-item"><a href="#"><h3>Boolean</h3></a></li>
-                    <li class="breadcrumb-item bread-path"><a href="#">Piano Balze</a></li>
-                    <li class="breadcrumb-item bread-path"><a href="#">3 app</a></li>
-                    <li class="breadcrumb-item pt-2 px-1"><a href="#"><i class="fa-solid fa-angles-right" style="color: #ffffff;"></i></a></li>
-                    
-                    <li class="breadcrumb-item bread-path" aria-current="page"><a href="#">+</a></li>
-                  </ol>
-                </nav>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb text-center">
+                  <li class="breadcrumb-item"><a href="#">
+                      <h3>Boolean</h3>
+                    </a></li>
+                  <li class="breadcrumb-item bread-path"><a href="#">Piano Balze</a></li>
+                  <li class="breadcrumb-item bread-path"><a href="#">3 app</a></li>
+                  <li class="breadcrumb-item pt-2 px-1"><a href="#"><i class="fa-solid fa-angles-right"
+                        style="color: #ffffff;"></i></a></li>
+
+                  <li class="breadcrumb-item bread-path" aria-current="page"><a href="#">+</a></li>
+                </ol>
+              </nav>
             </div>
             <div class="col-12 col-md-4 order-md-2">
               <div class="online">
@@ -113,8 +119,8 @@
                     <thead>
                       <tr>
                         <th class="w-50" scope="col">Nome</th>
-                        <th scope="col">Data Inizio</th>
-                        <th scope="col">ROI</th>
+                        <th scope="col" class="off">Data Inizio</th>
+                        <th scope="col"  class="off">ROI</th>
                         <th scope="col">Stato</th>
                         <th scope="col">Azioni</th>
                       </tr>
@@ -125,128 +131,198 @@
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+
                       <tr>
                         <th scope="row">
                           <span class="tag"><i class="fa-solid fa-code" style="color: #ffffff;"></i></span>
                           Classe #112
                         </th>
-                        <td>15 feb 2021</td>
-                        <td>20%</td>
+                        <td class="off">15 feb 2021</td>
+                        <td class="off">20%</td>
                         <td><span class="state done">Done</span></td>
                         <td>
                           <span class="action"><i class="fa-solid fa-pencil" style="color: #6c757d;"></i></span>
                           <span class="action"><i class="fa-solid fa-trash" style="color: #6c757d;"></i></span>
                         </td>
                       </tr>
+            
                     </tbody>
                   </table>
                 </div>
-
-
               </div>
+
+
               <div class="table-faq">
                 <h4 class="title-table">F.A.Q</h4>
-                <p class="d-inline-flex gap-1">
-                  <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                    Link with href
-                  </a>
-                  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    Button with data-bs-target
-                  </button>
-                </p>
-                <div class="collapse" id="collapseExample">
-                  <div class="card card-body">
-                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                <div class="container">
+                  <div class="faq border-bottom d-flex">
+                    <div class="faq-item w-75 align-items-center">
+                      <p class="d-inline-flex gap-1">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                          aria-expanded="false" aria-controls="collapseExample">
+                          Come aggiungere un nuovo studente?
+                        </a>
+                      </p>
+                      <div class="collapse py-1" id="collapseExample">
+                        <div class="card card-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis modi veniam quasi magni
+                          ullam exercitationem, consectetur eius, fugit natus alias inventore aliquid repellat, eaque at
+                          fugiat? Asperiores mollitia aperiam qui.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="faq-item w-25 text-end p-2"> + </div>
                   </div>
+
+                  <div class="faq border-bottom d-flex">
+                    <div class="faq-item w-75 align-items-center">
+                      <p class="d-inline-flex gap-1">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                          aria-expanded="false" aria-controls="collapseExample2">
+                          Come aggiungere un nuovo studente?
+                        </a>
+                      </p>
+                      <div class="collapse py-1" id="collapseExample2">
+                        <div class="card card-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis modi veniam quasi magni
+                          ullam exercitationem, consectetur eius, fugit natus alias inventore aliquid repellat, eaque at
+                          fugiat? Asperiores mollitia aperiam qui.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="faq-item w-25 text-end p-2"> + </div>
+                  </div>
+
+                  <div class="faq border-bottom d-flex">
+                    <div class="faq-item w-75 align-items-center">
+                      <p class="d-inline-flex gap-1">
+                        <a class="btn" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                          aria-expanded="false" aria-controls="collapseExample3">
+                          Come aggiungere un nuovo studente?
+                        </a>
+                      </p>
+                      <div class="collapse py-1" id="collapseExample3">
+                        <div class="card card-body">
+                          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis modi veniam quasi magni
+                          ullam exercitationem, consectetur eius, fugit natus alias inventore aliquid repellat, eaque at
+                          fugiat? Asperiores mollitia aperiam qui.
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="faq-item w-25 text-end p-2"> + </div>
+                  </div>
+
+
+
+
+
+
+                 
+                  
                 </div>
+
               </div>
+
             </div>
+
+
+
+
             <div class="col-12 col-lg-4 py-0">
               <div class="table-todo">
                 <h4 class="title-table">Todo</h4>
