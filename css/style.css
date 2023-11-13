@@ -40,13 +40,13 @@ nav {
 }
 
 .alarm i{
-    padding: 0 10px;
+    margin: 0 10px;
     font-size: 0.7rem;
 }
 
 .guess{
     background-color: #5a5757;
-    padding: 6px 0;
+    padding: 3px 5px;
     border-radius: 50%;
 }
 
@@ -176,6 +176,25 @@ ol.breadcrumb li a {
 
 
 /* TABLE SECTION STYLE */
+.table-class,
+.table-faq,
+.table-todo,
+.table-graph {
+    border: 1px solid #e1e1e1;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.title-table {
+    padding: 10px;
+    background-color: #e4e4e4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
 /* TABLE PROSSIME CLASSI */
 .tag {
     background-color: #f26551;
@@ -205,26 +224,7 @@ ol.breadcrumb li a {
 }
 
 
-
-
-
-
-.table-class,
-.table-faq,
-.table-todo,
-.table-graph {
-    border: 1px solid #e1e1e1;
-    border-radius: 10px;
-    margin-top: 30px;
-}
-
-.title-table {
-    padding: 10px;
-    background-color: #e4e4e4;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-}
-
+/* FAQ STYLE */
 .faq p a {
     font-weight: bold;
 }
@@ -234,13 +234,28 @@ ol.breadcrumb li a {
 }
 
 
-
-
-
-
-.table-todo {
-    height: 100px;
+/* TODO STYLE */
+.table-check{
+    font-weight: bold;
+    font-size: 0.9rem;
 }
+
+.table-check div{
+    border: 1px solid #d3d3d3;
+}
+
+.bt-r{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bb-r{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+
 
 .table-graph {
     height: 500px;
