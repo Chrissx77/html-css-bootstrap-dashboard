@@ -146,8 +146,6 @@ main {
 
 .main-top {
     color: white;
-
-    /* DEBUG */
     background-color: #1b72e8;
 }
 
@@ -326,7 +324,7 @@ ol.breadcrumb li a {
 
 }
 
-@media all and (min-width: 992px) {
+@media all and (min-width: 1040px) {
     .side-bar {
         width: 100px;
     }
