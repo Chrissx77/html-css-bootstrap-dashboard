@@ -3,7 +3,6 @@
  *************************************************/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-
 *,
 *::before,
 *::after {
@@ -32,7 +31,6 @@ nav {
     width: 50px;
 }
 
-
 .input-group span,
 .input-group input {
     border: none;
@@ -54,11 +52,11 @@ nav {
     border-radius: 50%;
 }
 
+/* ************************************************** */
 /* MAIN STYLE */
 main {
     display: flex;
 }
-
 
 /* SIDE BAR STYLE */
 .side-bar {
@@ -73,7 +71,7 @@ main {
     padding: 10px 0;
 }
 
-
+/* -->MOBILE VERSION<-- */
 .icon-side-mobile {
     list-style: none;
     padding: 0;
@@ -100,8 +98,7 @@ main {
     color: #11283d;
 }
 
-
-/*  ----> COME FACCIO A CENTRARE BENE LE ICONE?  <---- */
+/* -->TABLET-DESKTOP VERSION<-- */
 .icon-side {
     list-style: none;
     padding: 0;
@@ -130,12 +127,6 @@ main {
     font-size: 0.7rem;
     padding-left: 10px;
 }
-
-
-
-
-
-
 
 /* CONTENT SECTION STYLE */
 .content {
@@ -169,14 +160,12 @@ ol.breadcrumb li a {
     content: var(--bs-breadcrumb-divider, " ");
 }
 
-
 .add-student,
 .online {
     min-height: 50px;
     width: 60%;
     border-radius: 10px;
 }
-
 
 .add-student {
     font-size: 1.3rem;
@@ -192,8 +181,6 @@ ol.breadcrumb li a {
 .numb-student {
     font-size: 1.2rem;
 }
-
-
 
 /* TABLE SECTION STYLE */
 .table-class,
@@ -211,9 +198,6 @@ ol.breadcrumb li a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
-
-
 
 /* TABLE PROSSIME CLASSI */
 .tag {
@@ -241,7 +225,6 @@ ol.breadcrumb li a {
     background-color: red;
 }
 
-
 .action {
     border: 1px solid #6c757d;
     border-radius: 5px;
@@ -253,7 +236,6 @@ ol.breadcrumb li a {
     display: none;
 }
 
-
 /* FAQ STYLE */
 .faq p a {
     font-weight: bold;
@@ -262,7 +244,6 @@ ol.breadcrumb li a {
 .card {
     border: none;
 }
-
 
 /* TODO STYLE */
 .table-check {
@@ -284,7 +265,6 @@ ol.breadcrumb li a {
     border-bottom-right-radius: 5px;
 }
 
-
 /* GRAPH STYLE */
 .table-graph {
     padding: 10px;
@@ -301,7 +281,6 @@ ol.breadcrumb li a {
     width: 100%;
 
 }
-
 
 /* ****************************************************** */
 /* MEDIA QUERY */
@@ -320,8 +299,6 @@ ol.breadcrumb li a {
     .off {
         display: table-cell;
     }
-
-
 }
 
 @media all and (min-width: 1040px) {
