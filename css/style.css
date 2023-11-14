@@ -39,12 +39,16 @@ nav {
     background-color: #e6e6e6;
 }
 
-.alarm i{
+.alarm i {
     margin: 0 10px;
     font-size: 0.7rem;
 }
 
-.guess{
+.dropdown-toggle::after {
+    display: none;
+}
+
+.guess {
     background-color: #5a5757;
     padding: 3px 5px;
     border-radius: 50%;
@@ -79,12 +83,21 @@ main {
 }
 
 .icon-side-mobile li {
-    padding-top: 10px;
+    padding: 5px;
 }
 
 .icon-side-mobile li a {
     text-decoration: none;
     color: white;
+}
+
+.icon-side-mobile li:hover {
+    background-color: white;
+    color: #11283d;
+}
+
+.icon-side-mobile li:hover a {
+    color: #11283d;
 }
 
 
@@ -99,7 +112,16 @@ main {
 }
 
 .icon-side li {
-    padding-top: 10px;
+    padding: 5px;
+}
+
+.icon-side li:hover {
+    background-color: white;
+    color: #11283d;
+}
+
+.icon-side li:hover a {
+    color: #11283d;
 }
 
 .icon-side li a {
@@ -206,11 +228,21 @@ ol.breadcrumb li a {
     border-radius: 10px;
     padding: 5px;
     color: white;
+    font-size: 0.7rem;
 }
 
 .done {
     background-color: #198754;
 }
+
+.process {
+    background-color: orange;
+}
+
+.failed {
+    background-color: red;
+}
+
 
 .action {
     border: 1px solid #6c757d;
@@ -219,7 +251,7 @@ ol.breadcrumb li a {
     padding: 5px;
 }
 
-.off{
+.off {
     display: none;
 }
 
@@ -235,30 +267,41 @@ ol.breadcrumb li a {
 
 
 /* TODO STYLE */
-.table-check{
+.table-check {
     font-weight: bold;
     font-size: 0.9rem;
 }
 
-.table-check div{
+.table-check div {
     border: 1px solid #d3d3d3;
 }
 
-.bt-r{
+.bt-r {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.bb-r{
+.bb-r {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
 
 
-
-
+/* GRAPH STYLE */
 .table-graph {
-    height: 500px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.graph-content {
+    border: 1px solid #dadada;
+    border-radius: 10px;
+}
+
+.graph-content img {
+    width: 100%;
+
 }
 
 
@@ -276,7 +319,7 @@ ol.breadcrumb li a {
         text-align: end;
     }
 
-    .off{
+    .off {
         display: table-cell;
     }
 
